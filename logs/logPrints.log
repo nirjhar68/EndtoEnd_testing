@@ -1,0 +1,5 @@
+20:15:24.574 [TestNG-tests-2] INFO  com.framework_form_scratch.base.Base - Ran @BeforeTest
+20:15:24.634 [TestNG-tests-2] INFO  com.framework_form_scratch.base.Base - Successfully fetched the featured text.
+20:15:28.318 [TestNG-tests-2] INFO  com.framework_form_scratch.base.Base - Clicked on the login button.
+20:15:48.707 [AsyncHttpClient-1-7] DEBUG io.netty.buffer.PoolThreadCache - Freed 3 thread-local buffer(s) from thread: AsyncHttpClient-1-7
+20:15:48.707 [AsyncHttpClient-1-6] DEBUG io.netty.buffer.PoolThreadCache - Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-6

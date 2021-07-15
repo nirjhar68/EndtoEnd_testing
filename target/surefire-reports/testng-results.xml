@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15224" started-at="2021-07-07T15:14:56 EDT" finished-at="2021-07-07T15:15:11 EDT">
+    <groups>
+    </groups>
+    <test name="AppTest" duration-ms="5" started-at="2021-07-07T15:14:56 EDT" finished-at="2021-07-07T15:14:56 EDT">
+    </test> <!-- AppTest -->
+    <test name="HomePage" duration-ms="11316" started-at="2021-07-07T15:14:56 EDT" finished-at="2021-07-07T15:15:07 EDT">
+      <class name="com.framework_from_scratch.Page_Objectd.HomePageTest">
+        <test-method status="PASS" signature="initializeTest()[pri:0, instance:com.framework_from_scratch.Page_Objectd.HomePageTest@28975c28]" name="initializeTest" is-config="true" duration-ms="2941" started-at="2021-07-07T15:14:56 EDT" finished-at="2021-07-07T15:14:59 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTest -->
+        <test-method status="PASS" signature="homePageNavigation()[pri:0, instance:com.framework_from_scratch.Page_Objectd.HomePageTest@28975c28]" name="homePageNavigation" duration-ms="8289" started-at="2021-07-07T15:14:59 EDT" finished-at="2021-07-07T15:15:07 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageNavigation -->
+        <test-method status="PASS" signature="closeTest()[pri:0, instance:com.framework_from_scratch.Page_Objectd.HomePageTest@28975c28]" name="closeTest" is-config="true" duration-ms="64" started-at="2021-07-07T15:15:07 EDT" finished-at="2021-07-07T15:15:07 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+      </class> <!-- com.framework_from_scratch.Page_Objectd.HomePageTest -->
+    </test> <!-- HomePage -->
+    <test name="LoginPage" duration-ms="3890" started-at="2021-07-07T15:15:07 EDT" finished-at="2021-07-07T15:15:11 EDT">
+      <class name="com.framework_from_scratch.Page_Objectd.LoginPageTest">
+        <test-method status="PASS" signature="initializeTest()[pri:0, instance:com.framework_from_scratch.Page_Objectd.LoginPageTest@78ffe6dc]" name="initializeTest" is-config="true" duration-ms="2920" started-at="2021-07-07T15:15:07 EDT" finished-at="2021-07-07T15:15:10 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTest -->
+        <test-method status="PASS" signature="testLoginPage(java.lang.String,java.lang.String)[pri:0, instance:com.framework_from_scratch.Page_Objectd.LoginPageTest@78ffe6dc]" name="testLoginPage" duration-ms="483" started-at="2021-07-07T15:15:10 EDT" data-provider="getData" finished-at="2021-07-07T15:15:11 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[userNumberOne@practice.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[127834hf0b19827g3vb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method status="PASS" signature="testLoginPage(java.lang.String,java.lang.String)[pri:0, instance:com.framework_from_scratch.Page_Objectd.LoginPageTest@78ffe6dc]" name="testLoginPage" duration-ms="433" started-at="2021-07-07T15:15:11 EDT" data-provider="getData" finished-at="2021-07-07T15:15:11 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[userNumberTwo@practice.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vn-237b-1237-123dsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method status="PASS" signature="closeTest()[pri:0, instance:com.framework_from_scratch.Page_Objectd.LoginPageTest@78ffe6dc]" name="closeTest" is-config="true" duration-ms="50" started-at="2021-07-07T15:15:11 EDT" finished-at="2021-07-07T15:15:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+      </class> <!-- com.framework_from_scratch.Page_Objectd.LoginPageTest -->
+    </test> <!-- LoginPage -->
+  </suite> <!-- Suite -->
+</testng-results>

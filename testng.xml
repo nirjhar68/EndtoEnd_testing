@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+	<listeners>
+		<listener
+			class-name="com.Maven_project_from_scartch.listeners.TestListeners" />
+	</listeners>
+	<test thread-count="5" name="AppTest">
+		<classes>
+			<class
+				name="com.framework_form_scratch.maven_project_build.AppTest" />
+		</classes>
+	</test>
+	<test name="HomePage">
+		<classes>
+			<class
+				name="com.framework_from_scratch.Page_Objectd.HomePageTest" />
+		</classes>
+	</test>
+	<test name="LoginPage">
+		<classes>
+			<class
+				name="com.framework_from_scratch.Page_Objectd.LoginPageTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
+

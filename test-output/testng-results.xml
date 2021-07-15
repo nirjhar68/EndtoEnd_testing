@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="30704" started-at="2021-07-08T20:15:17 EDT" finished-at="2021-07-08T20:15:48 EDT">
+    <groups>
+    </groups>
+    <test name="AppTest" duration-ms="10" started-at="2021-07-08T20:15:17 EDT" finished-at="2021-07-08T20:15:17 EDT">
+    </test> <!-- AppTest -->
+    <test name="LoginPage" duration-ms="6198" started-at="2021-07-08T20:15:17 EDT" finished-at="2021-07-08T20:15:24 EDT">
+      <class name="com.framework_from_scratch.Page_Objectd.LoginPageTest">
+        <test-method status="PASS" signature="initializeTest()[pri:0, instance:com.framework_from_scratch.Page_Objectd.LoginPageTest@cc43f62]" name="initializeTest" is-config="true" duration-ms="4782" started-at="2021-07-08T20:15:17 EDT" finished-at="2021-07-08T20:15:22 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTest -->
+        <test-method status="PASS" signature="testLoginPage(java.lang.String,java.lang.String)[pri:0, instance:com.framework_from_scratch.Page_Objectd.LoginPageTest@cc43f62]" name="testLoginPage" duration-ms="762" started-at="2021-07-08T20:15:22 EDT" data-provider="getData" finished-at="2021-07-08T20:15:23 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[userNumberOne@practice.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[127834hf0b19827g3vb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method status="PASS" signature="testLoginPage(java.lang.String,java.lang.String)[pri:0, instance:com.framework_from_scratch.Page_Objectd.LoginPageTest@cc43f62]" name="testLoginPage" duration-ms="565" started-at="2021-07-08T20:15:23 EDT" data-provider="getData" finished-at="2021-07-08T20:15:24 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[userNumberTwo@practice.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vn-237b-1237-123dsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method status="PASS" signature="closeTest()[pri:0, instance:com.framework_from_scratch.Page_Objectd.LoginPageTest@cc43f62]" name="closeTest" is-config="true" duration-ms="49" started-at="2021-07-08T20:15:24 EDT" finished-at="2021-07-08T20:15:24 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+      </class> <!-- com.framework_from_scratch.Page_Objectd.LoginPageTest -->
+    </test> <!-- LoginPage -->
+    <test name="HomePage" duration-ms="30704" started-at="2021-07-08T20:15:17 EDT" finished-at="2021-07-08T20:15:48 EDT">
+      <class name="com.framework_from_scratch.Page_Objectd.HomePageTest">
+        <test-method status="PASS" signature="initializeTest()[pri:0, instance:com.framework_from_scratch.Page_Objectd.HomePageTest@1c5920df]" name="initializeTest" is-config="true" duration-ms="6687" started-at="2021-07-08T20:15:17 EDT" finished-at="2021-07-08T20:15:24 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTest -->
+        <test-method status="PASS" signature="homePageNavigation()[pri:0, instance:com.framework_from_scratch.Page_Objectd.HomePageTest@1c5920df]" name="homePageNavigation" duration-ms="3742" started-at="2021-07-08T20:15:24 EDT" finished-at="2021-07-08T20:15:28 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageNavigation -->
+        <test-method status="FAIL" signature="navbarVisibility()[pri:0, instance:com.framework_from_scratch.Page_Objectd.HomePageTest@1c5920df]" name="navbarVisibility" duration-ms="20032" started-at="2021-07-08T20:15:28 EDT" finished-at="2021-07-08T20:15:48 EDT">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//ul[contains(@class, 'navbar-right')]"}
+  (Session info: chrome=91.0.4472.124)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
+System info: host: 'DESKTOP-IR4PLA5', ip: '192.168.1.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\myblu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59793}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9f97ec591c2853184bc2a123b15da2ab
+*** Element info: {Using=xpath, value=//ul[contains(@class, 'navbar-right')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[contains(@class, 'navbar-right')]"}
+  (Session info: chrome=91.0.4472.124)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
+System info: host: 'DESKTOP-IR4PLA5', ip: '192.168.1.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\myblu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59793}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9f97ec591c2853184bc2a123b15da2ab
+*** Element info: {Using=xpath, value=//ul[contains(@class, 'navbar-right')]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:123)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:501)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:332)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:379)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:312)
+at com.framework_from_scratch.Page_Objectd.HomePageTest.navbarVisibility(HomePageTest.java:47)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navbarVisibility -->
+        <test-method status="PASS" signature="closeTest()[pri:0, instance:com.framework_from_scratch.Page_Objectd.HomePageTest@1c5920df]" name="closeTest" is-config="true" duration-ms="40" started-at="2021-07-08T20:15:48 EDT" finished-at="2021-07-08T20:15:48 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+      </class> <!-- com.framework_from_scratch.Page_Objectd.HomePageTest -->
+    </test> <!-- HomePage -->
+  </suite> <!-- Suite -->
+</testng-results>

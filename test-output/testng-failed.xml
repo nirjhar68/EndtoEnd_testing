@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.Maven_project_from_scartch.listeners.TestListeners"/>
+  </listeners>
+  <test thread-count="5" name="HomePage(failed)" parallel="tests">
+    <classes>
+      <class name="com.framework_from_scratch.Page_Objectd.HomePageTest">
+        <methods>
+          <include name="closeTest"/>
+          <include name="navbarVisibility"/>
+          <include name="initializeTest"/>
+        </methods>
+      </class> <!-- com.framework_from_scratch.Page_Objectd.HomePageTest -->
+    </classes>
+  </test> <!-- HomePage(failed) -->
+</suite> <!-- Failed suite [Suite] -->

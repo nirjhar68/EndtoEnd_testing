@@ -1,0 +1,4 @@
+20:15:20.832 [TestNG-tests-2] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x9e9944e3b00f48b1
+20:15:22.670 [TestNG-tests-3] INFO  com.framework_form_scratch.base.Base - Driver initialized in the LoginPageTester
+20:15:23.455 [TestNG-tests-3] INFO  com.framework_form_scratch.base.Base - Succssluffly send the keys to the user name and the password section.
+20:15:24.027 [TestNG-tests-3] INFO  com.framework_form_scratch.base.Base - Succssluffly send the keys to the user name and the password section.
